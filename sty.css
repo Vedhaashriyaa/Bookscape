@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(254, 201, 120);
+    background-image: url(Book1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px; 
+    color: rgb(245, 235, 235);
+    animation: header 1s ease-in-out;
+    text-decoration: none;
+    list-style: none;
+}
+@keyframes header {
+    0%{
+        transform: translateY(-100%);
+    }
+    
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight:700;
+    font-size: 30px;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width:50%;
+    margin-top: 8%;
+    margin-left:5%;
+    color:white;
+    animation: content 2s ease-in-out;
+}
+@keyframes content {
+    0%{
+        transform: translateX(-50%);
+    }
+    
+}
+.content h1 {
+    font-size: 90px;
+    margin-bottom: 2%;
+    letter-spacing: 9px;
+
+}
+.content h3{
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+.content p{
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+button{
+    padding: 15px 30px;
+    background: black;
+    color:white;
+    font-size:20px;
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(235, 109, 109)
+}
+
+  
